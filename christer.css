@@ -75,7 +75,7 @@ button {
     border: 0;
     height: 50px;
     max-width: 38px;
-    background: url(cbtn.PNG);
+    background: url(cbtn.png);
     background-repeat: no-repeat;
 }
 
@@ -114,7 +114,7 @@ li {
 
 li > span:nth-child(2) {
     color: transparent;
-    background: url(ctc.PNG);
+    background: url(ctc.png);
     background-repeat: no-repeat;
     display: block;
     position: relative;
