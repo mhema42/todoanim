@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My ToDo list</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <div class="container">
+
+      <div class="logo"></div>
+      <h1>Min att göra lista</h1>
+
+      <div class="toDolist">
+        <ul></ul>
+      </div>
+
+      <div class="counter">
+        <p class="toDos"></p>
+        <p class="done"></p>
+      </div>
+
+      <small></small>
+
+      <div class="inBtn">
+        <input type="text" id="input" name="input" placeholder=" " />
+        <span>
+        <button>Lägg till</button>
+      </div>
+
+      <div class="reload">
+        <a class="clear" href="">Clear All</a>
+      </div>
+  
+      <div class="chCss">
+        <a href="#" onclick="document.querySelector('link').href = 'style.css'">Min ToDo</a>
+        <a href="#" onclick="document.querySelector('link').href = 'Christer.CSS'">Christer ToDo</a>
+        <a href="#" onclick="document.querySelector('link').href = 'anim.CSS'">Animation ToDo</a>
+      </div>
+    
+    </div>
+
+    <script src="script.js"></script>
+  
+  </body>
+</html>

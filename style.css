@@ -1,0 +1,144 @@
+body {
+  background-color: #f1c16e;
+  background-image: url("wood.png");
+  color: rgb(252, 252, 252);
+  font-family: "Lucida Handwriting", "Comic sans MS", "Brush Script MT", "Arial";
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  text-shadow: 1px 1px 0.01em white;
+  transform: translate(0, 108px);
+  font-size: 27px;
+  color: rgb(20, 6, 145);
+  margin: 0;
+}
+
+.toDolist {
+  max-width: 337px;
+  Height: 518px;
+  margin: auto;
+  margin-bottom: 15px;
+  background-image: url("notepad.png");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  box-shadow: 10px 20px 20px black;
+  line-height: 34.6px;
+  color: rgb(20, 6, 145);
+}
+
+ul {
+  position: relative;
+  transform: translate(0, 110px);
+  padding-left: 0px;
+  list-style: none;
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  font-size: 15px;
+  height: 34.5px;
+}
+
+li:hover {
+  text-shadow: 1px 1px 2px white
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.trashcan {
+  vertical-align: middle;
+  font-size: 22px;
+  margin-left: 10px;
+  cursor: pointer;
+  color: gray;
+}
+
+.trashcan:hover {
+  vertical-align: middle;
+  text-shadow: 0px 0px 0px white;
+  font-size: 26px;
+  color: red;
+}
+
+.reload {
+  display: none;
+}
+
+small {
+  display: block;
+  color: white;
+  text-shadow: -5px -5px 10px;
+  margin-bottom: 5px;
+  transition: color 5s;
+}
+
+small::after {
+  
+  display: block;
+  color: red;
+  text-shadow: -5px -5px 10px;
+  margin-bottom: 5px;
+}
+
+.inBtn {
+  margin: auto;
+  max-width: 337px;
+}
+
+input {
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  height: 20px;
+  border: 0px;
+  color: black;
+  box-shadow: 2px 2px 4px;
+  border-radius: 2px;
+}
+
+button {
+  margin-top: 15px;
+  box-shadow: 0 0 20px;
+}
+
+.counter {
+  margin: auto;
+  width: 800px;
+}
+
+.toDos {
+  height: 30px;
+  width: 130px;
+  display: inline-block;
+}
+
+.toDos:after {
+  content: " uppgift(er)";
+}
+
+.done {
+  height: 30px;
+  width: 150px;
+  display: inline-block;
+}
+
+.done:after {
+  content: " utförd(a)";
+}
+
+.chCss {
+  margin: auto;
+  width: 400px;
+  margin-top: 30px;
+}
+
+.chCss a {
+  padding: 15px;
+  margin: auto;
+  font-size: 12px;
+  color: white;
+}
