@@ -7,7 +7,14 @@ body {
   text-align: center;
 }
 
+.container {
+  width: 400px;
+  margin: auto;
+}
+
 h1 {
+  width: 400px;
+  margin: auto;
   text-shadow: 1px 1px 0.01em white;
   transform: translate(0, 108px);
   font-size: 27px;
@@ -16,7 +23,7 @@ h1 {
 }
 
 .toDolist {
-  max-width: 337px;
+  width: 337px;
   Height: 518px;
   margin: auto;
   margin-bottom: 15px;
@@ -107,7 +114,7 @@ button {
 
 .counter {
   margin: auto;
-  width: 800px;
+  width: 300px;
 }
 
 .toDos {

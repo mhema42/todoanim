@@ -1,0 +1,13 @@
+HTML {
+    height: 100%;
+    background: -webkit-linear-gradient(#FFC4C4, #FD9E9D, #FD7D7D);
+}
+
+.container {
+    background-color: white;
+    box-shadow: 0 0 20px rgb(160, 154, 154);
+    min-height: 300px;
+    margin: auto;
+    text-align: center;
+    width: 720px;
+}
