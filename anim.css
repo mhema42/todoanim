@@ -65,7 +65,41 @@ small {
     font-style: italic;
 }
 
+.container {
+    animation: flyIn 1s;
+}
 
+@keyframes flyIn {
+    0% {
+    top: -700px;
+    }
+        
+    50% {
+        top: 60px;
+    }
+    
+    100% {
+        top: 0px;
+    }
+}
+
+h1, .done, input, button,.chCss {
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0%;
+    }
+
+    50% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
 
 
 

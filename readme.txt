@@ -15,15 +15,15 @@
     Skicka in länk till GitHub och GitHub Pages via ItsLearning.  
 
 2. Bryt ned i separata delar
-    - Bakgrund tonad rosa
-    - ToDo-listan ska vara centrerad
-    - ToDo-listan ska vara ca 50% av skärmens bredd (5-600px?)
-    - ToDo-listan ska vara ca vara ca 4-500px? hög
-    - Överst rubrik - "My ToDo" (times?)
-    - Under rubrik räknare (arial)
-    - Under räknare input och button på samma rad (arial)
-    - Hela listan ska flya in uppifrån och ned (pasera slutpunkt och sedan återgå något) 
-    - Texten i listan ska tonas in
+        - Bakgrund tonad rosa
+        - ToDo-listan ska vara centrerad
+        - ToDo-listan ska vara ca 50% av skärmens bredd (5-600px?)
+        - ToDo-listan ska vara ca vara ca 4-500px? hög
+        - Överst rubrik - "My ToDo" (times?)
+        - Under rubrik räknare (arial)
+        - Under räknare input och button på samma rad (arial)
+        - Hela listan ska flyga in uppifrån och ned (pasera slutpunkt och sedan återgå något) 
+        - Texten i listan ska tonas in
     - Listobjekt ska tona in och komma underifrån och upp (arial)
     - Om inputrutan är tom när man klickar på knappen så ska texten "Input must not be empty" blinka mörkrött
     - Om man klickar på ett listobjekt för att "klarmarkera" så ska texten tonas till grått
@@ -34,7 +34,12 @@
     - Skapat repository "todoanim" och kört första commit/push
     - Publicerat projectet på github pages - https://mhema42.github.io/todoanim/
     - Bakgrund tonad rosa
-    - 
-
+    - ToDo-listan ska vara ca 50% av skärmens bredd (5-600px?)
+    - ToDo-listan ska vara ca vara ca 4-500px? hög
+    - Överst rubrik - "My ToDo" (times?)
+    - Under rubrik räknare (arial)
+    - Under räknare input och button på samma rad (arial)
+    - Hela listan ska flyga in uppifrån och ned (pasera slutpunkt och sedan återgå något) 
+    - Texten i listan ska tonas in
 
 4. Sätt i hop bitarna
