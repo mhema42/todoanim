@@ -8,15 +8,16 @@ body {
 }
 
 .container {
-    position: relative;
     background-color: white;
     box-shadow: 0 0 20px rgb(160, 154, 154);
     min-height: 300px;
     margin: auto;
+    position: relative;
     text-align: center;
     width: 720px;
 }
 
+/* A fix to have other headline then my earlier projects */
 h1 {
     font-family: "Times New Roman', Times, serif";
     font-size: 0;
@@ -30,6 +31,7 @@ h1:after {
     margin-top: 20px;
 }
 
+/* counter for completed items, fix for other text in previos projects */
 .done {
     font-family: "arial";
     font-size: 20px;
@@ -61,20 +63,20 @@ button {
 }
 
 small {
+    color: #EA1518;
     display: block;
-    margin-top: 8px;
-    padding-left: 33px;
-    color: rgb(173, 11, 11);
     font-size: 20px;
     font-style: italic;
+    margin-top: 8px;
+    padding-left: 33px;
 }
 
 ul {
+    font-size: 36px;
+    list-style: none;
     margin-top: 10px;
     margin-bottom: 0px;
-    font-size: 36px;
     padding: 17px;
-    list-style: none;
     text-align: center;
 }
 
@@ -86,24 +88,22 @@ li {
     text-decoration: line-through;
 }
 
-li > span:nth-last-child(1) {
-    position: relative;
-    right: -20px;
-    top: 10px;
+.trashcan {
     background: url(rtc.png);
     background-repeat: no-repeat;
     color: transparent;
+    position: relative;
+    right: -20px;
+    top: 10px;
+}
+
+.trashcan:hover {
+    cursor: pointer;
 }
 
 /* Animations */
-.completed {
-    transition: color 1s 0.3s;
-}
 
-.completed {
-    color: grey;
-}
-
+/* The background container flies in from top */
 .container {
     animation: flyIn 1s;
 }
@@ -122,6 +122,7 @@ li > span:nth-last-child(1) {
     }
 }
 
+/* The objects in the container fades in */
 h1, .done, input, button,.chCss {
     animation: fadeIn 2s;
 }
@@ -140,9 +141,10 @@ h1, .done, input, button,.chCss {
     }
 }
 
+/* The list-elements comes in from bottom up */
 li {
-    position: relative;
     animation: flyUp 0.5s;
+    position: relative;
 }
 
 @keyframes flyUp {
@@ -155,10 +157,55 @@ li {
     }
 }
 
+/* If klick with empty input, varning flashes */
+small:not(:empty) {
+    animation: flash 1s;
+}
+
+@keyframes flash {
+    0% {
+        color:#EA1518;
+    }
+
+    20% {
+        color: white;
+    }
+
+    40% {
+        color:#EA1518;
+    }
+
+    60% {
+        color: white;
+    }
+
+    100% {
+        color:#EA1518;
+    }
+}
+
+/* When list object is marked as completed, the text fades to gray */
+.completed {
+    transition: color 1s 0.3s;
+}
+
+.completed {
+    color: grey;
+}
+
+
+
 /* Objects from my previous project */
 .chCss {
-    position: relative;
-    transform: translateY(150px);
+    position: static;
+    transform: translateY(80px);
+}
+
+.chCss a {
+    color: #FD7D7D;
+    margin-left: 20px;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px black;
 }
 
 .toDos {
