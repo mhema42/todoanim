@@ -11,3 +11,20 @@ HTML {
     text-align: center;
     width: 720px;
 }
+
+h1 {
+    font-size: 0;
+}
+
+h1:after {
+    display: block;
+    margin-top: 20px;
+    font-size: 70px;
+    color: black;
+    content: "My ToDo";
+}
+
+.done {
+    font-
+    font-size: ;
+}

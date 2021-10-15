@@ -33,6 +33,8 @@
 3. Lös vart och ett av problemen
     - Skapat repository "todoanim" och kört första commit/push
     - Publicerat projectet på github pages - https://mhema42.github.io/todoanim/
-    
+    - Bakgrund tonad rosa
+    - 
+
 
 4. Sätt i hop bitarna
