@@ -29,7 +29,7 @@ button.addEventListener("click", function () {
   // kotrollera att textrutan inte är tom när vi klickar
   if (text.length == 0) {
     document.querySelector("small").innerText =
-      "du måste fylla i något att göra";
+      "Input must not be empty";
     index--;
     toDos.innerText = index;
     done.innerText = completed;

@@ -28,14 +28,13 @@ h1:after {
     content: "JavaScript NoToDo App";
     display: block;  
     margin-top: 0;
-    margin-bottom: 110px;
     text-align: center;
 }
 
 .inBtn {
     text-align: right;
     border-radius: 3px;
-    transform: translate(0px, px);
+    transform: translate(0px, 0px);
     background: white;
     max-width: 500px;
     height: 58px;
@@ -80,7 +79,6 @@ button {
 }
 
 .toDolist {
-    position: relative;
     top: 25px;
     border-radius: 3px;
     max-width: 500px;

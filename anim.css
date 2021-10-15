@@ -1,6 +1,10 @@
 HTML {
-    height: 100%;
     background: -webkit-linear-gradient(#FFC4C4, #FD9E9D, #FD7D7D);
+    height: 100%;
+}
+
+body {
+    font-family: "arial";
 }
 
 .container {
@@ -13,18 +17,67 @@ HTML {
 }
 
 h1 {
+    font-family: "Times New Roman', Times, serif";
     font-size: 0;
 }
 
 h1:after {
-    display: block;
-    margin-top: 20px;
-    font-size: 70px;
     color: black;
     content: "My ToDo";
+    display: block;
+    font-size: 70px;
+    margin-top: 20px;
 }
 
 .done {
-    font-
-    font-size: ;
+    font-family: "arial";
+    font-size: 20px;
+    margin-bottom: 40px;
+    padding-top: 0;
+}
+
+.done::after {
+    content: " completed";
+}
+
+input {
+    font-size: 26px;
+    height: 34px;
+    vertical-align: middle;
+    width: 310px;
+}
+
+input:focus {
+    outline-color: blue;
+}
+
+button {
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+small {
+    display: block;
+    margin-top: 8px;
+    padding-left: 33px;
+    color: rgb(173, 11, 11);
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+
+
+
+.chCss {
+    position: relative;
+    transform: translateY(150px);
+}
+
+.toDos {
+    display: none;
+}
+
+.clear {
+    display: none;
 }
