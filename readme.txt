@@ -24,9 +24,9 @@
         - Under räknare input och button på samma rad (arial)
         - Hela listan ska flyga in uppifrån och ned (pasera slutpunkt och sedan återgå något) 
         - Texten i listan ska tonas in
-    - Listobjekt ska tona in och komma underifrån och upp (arial)
+        - Listobjekt ska tona in och komma underifrån och upp (arial)
     - Om inputrutan är tom när man klickar på knappen så ska texten "Input must not be empty" blinka mörkrött
-    - Om man klickar på ett listobjekt för att "klarmarkera" så ska texten tonas till grått
+        - Om man klickar på ett listobjekt för att "klarmarkera" så ska texten tonas till grått
     - Skapa ett repository på github och kör commit/push projektet under arbetets gång
     - Publicera på github pages
 
@@ -41,5 +41,10 @@
     - Under räknare input och button på samma rad (arial)
     - Hela listan ska flyga in uppifrån och ned (pasera slutpunkt och sedan återgå något) 
     - Texten i listan ska tonas in
+    - Listobjekt ska tona in och komma underifrån och upp (arial)
+
+    - Om man klickar på ett listobjekt för att "klarmarkera" så ska texten tonas till grått
+    - Skapa ett repository på github och kör commit/push projektet under arbetets gång
+    - Publicera på github pages
 
 4. Sätt i hop bitarna

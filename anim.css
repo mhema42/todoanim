@@ -8,6 +8,7 @@ body {
 }
 
 .container {
+    position: relative;
     background-color: white;
     box-shadow: 0 0 20px rgb(160, 154, 154);
     min-height: 300px;
@@ -52,8 +53,11 @@ input:focus {
 }
 
 button {
-    font-size: 30px;
+    border-radius: 4px;
+    font-size: 26px;
+    height: 40px;
     vertical-align: middle;
+    width: 60px;
 }
 
 small {
@@ -63,6 +67,41 @@ small {
     color: rgb(173, 11, 11);
     font-size: 20px;
     font-style: italic;
+}
+
+ul {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 36px;
+    padding: 17px;
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+.completed > :nth-last-child(2) {
+    text-decoration: line-through;
+}
+
+li > span:nth-last-child(1) {
+    position: relative;
+    right: -20px;
+    top: 10px;
+    background: url(rtc.png);
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+/* Animations */
+.completed {
+    transition: color 1s 0.3s;
+}
+
+.completed {
+    color: grey;
 }
 
 .container {
@@ -101,8 +140,22 @@ h1, .done, input, button,.chCss {
     }
 }
 
+li {
+    position: relative;
+    animation: flyUp 0.5s;
+}
 
+@keyframes flyUp {
+    0% {
+        top: 20px;
+    }
+    
+    100% {
+        top: 0px;
+    }
+}
 
+/* Objects from my previous project */
 .chCss {
     position: relative;
     transform: translateY(150px);
